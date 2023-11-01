@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+}
+
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(339deg, #000000 26%, #00000000 48%), linear-gradient(90deg, #17161c00 37%, #000000 100%), linear-gradient(0deg, #17161c99 0%, #17161c99 100%);
+}
+
+
+#headerLine {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 32px;
+    padding-bottom: 24px;
+    padding-left: 86px;
+    padding-right: 96px;
+}
+
+#logo {
+    font-family: Michroma;
+    color: #fff;
+    text-align: left;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;    
+    text-align: right;
+    color: #D8D8D8;
+    
+}
+
+#borderright {
+    padding-right: 24px;
+    margin-left: auto;
+    border-right: 4px solid #00FF11;
+    width: 453px;
+}
+
+h3 {
+    color: #00FF11;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+#videoblock {
+    width: 415px;
+    height: 234px;
+    overflow: hidden;
+    border: 14px solid #00FF11;
+    margin-right: auto;
+
+}
+
+#video-small {
+    width: 1000%;
+
+}
+
+#pagecontent {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 128px;
+    /* margin-right: auto; */
+    align-items: center;
+    /* justify-content: center; */
+    gap: auto;
+    
+}
+
+h1 {
+    font-family: Michroma;
+    font-size: 48px;
+    line-height: 93%;
+    text-align: right;
+
+}
+
+
+
+#logopage {
+    margin-right: auto;
+}
+
+#textblock {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    gap: 24px;
+    
+   
+}
+
+div.content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
